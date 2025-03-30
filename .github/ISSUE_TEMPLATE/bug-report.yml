@@ -1,0 +1,34 @@
+name: バグ報告
+description: File a bug report.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        バグ報告への協力ありがとうございます！
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 再現手順
+      description: 画像や動画があればそちらも添付してください。
+      value: |
+        1. 
+        2. 
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: エラーメッセージ
+      description: エラー内容がわかる場合は記入してください。
+      render: shell
+
+  - type: textarea
+    attributes:
+      label: 正しい/期待する動作を教えて下さい
+    validations:
+      required: true
