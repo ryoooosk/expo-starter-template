@@ -1,5 +1,27 @@
 # Welcome to Ryoooosk Expo Starter Template
 
+アプリ名を変更してpackageをinstallして使ってください。
+
+**app.json**
+```json
+{
+  "expo": {
+    "name": "your-app-name",
+    "slug": "your-app-slug",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourapp"
+    }
+  }
+}
+```
+
+**package.json**
+```json
+{
+  "name": "your-app-name",
+}
+```
+
 ## Biome
 
 [Biome](https://biomejs.dev/ja/)
